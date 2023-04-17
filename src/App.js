@@ -1,10 +1,12 @@
 
+import GithubUser from './UseEffect/GithubUser';
 import Jokes from './UseEffect/Jokes';
 
 function App() {
   return (
     <div className="App">
-     <Jokes/>
+     {/* <Jokes/> */}
+     <GithubUser/>
     </div>
   );
 }
