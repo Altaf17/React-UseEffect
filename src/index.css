@@ -331,6 +331,9 @@ p {
 .--form-control > * {
   margin: 5px 0;
 }
+.--mh-100vh{
+  min-height: 100vh;
+}
 
 .--form-control input {
   font-size: 1.6rem;
