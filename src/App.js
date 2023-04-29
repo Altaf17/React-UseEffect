@@ -3,6 +3,7 @@ import GithubUser from './UseEffect/GithubUser';
 import Jokes from './UseEffect/Jokes';
 import ControlInputs from './forms/ControlInputs';
 import MultipleControlInputs from './forms/MultipleControlInputs';
+import UncontrolInputs from './forms/UncontrolInputs';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
      {/* <Jokes/> */}
      {/* <GithubUser/> */}
      {/* <ControlInputs/> */}
-     <MultipleControlInputs/>
+     {/* <MultipleControlInputs/> */}
+     <UncontrolInputs/>
     </div>
   );
 }
